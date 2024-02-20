@@ -44,7 +44,7 @@ upload:
 	@echo "---> Git commit"
 	git commit -m "Commit via makefile"
 	@echo "---> Git push"
-	git push -u origin main --force
+	git push -u origin master --force
 	@echo "---> Project has been uploaded to GitHub."
 
 clean:
